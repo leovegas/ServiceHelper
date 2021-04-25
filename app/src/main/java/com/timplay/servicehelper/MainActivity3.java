@@ -134,10 +134,10 @@ public class MainActivity3 extends AppCompatActivity {
         String urlString = "https://api.telegram.org/bot%s/sendMessage?chat_id=%s&text=%s";
 
         //Add Telegram token (given Token is fake)
-        String apiToken = "1744798987:AAG2Di0iF_m31N70jXqqXcUHtbAwzTuLF4k";
+        String apiToken = "17447989871:AAG2Di0iF_m31N70jXqqXcUHtbAwzTuLF4kq";
 
         //Add chatId (given chatId is fake)
-        String chatId = "1296042972";
+        String chatId = "12960429721";
         String text = message;
 
         urlString = String.format(urlString, apiToken, chatId, text);
