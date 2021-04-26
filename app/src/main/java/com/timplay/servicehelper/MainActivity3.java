@@ -25,7 +25,6 @@ public class MainActivity3 extends AppCompatActivity {
     @Override
     protected void onPostResume() {
         super.onPostResume();
-        System.out.println("rsume");
     }
 
     @Override
@@ -134,10 +133,10 @@ public class MainActivity3 extends AppCompatActivity {
         String urlString = "https://api.telegram.org/bot%s/sendMessage?chat_id=%s&text=%s";
 
         //Add Telegram token (given Token is fake)
-        String apiToken = "17447989871:AAG2Di0iF_m31N70jXqqXcUHtbAwzTuLF4kq";
+        String apiToken = "11744798987:AAG2Di0iF_m31N70jXqqXcUHtbAwzTuLF4k1";
 
         //Add chatId (given chatId is fake)
-        String chatId = "12960429721";
+        String chatId = "11296042972";
         String text = message;
 
         urlString = String.format(urlString, apiToken, chatId, text);

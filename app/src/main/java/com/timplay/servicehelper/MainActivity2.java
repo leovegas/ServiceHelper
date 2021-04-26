@@ -154,89 +154,172 @@ public class MainActivity2 extends AppCompatActivity {
         ImageView iv79 = (ImageView) findViewById(R.id.imageView79);
         ImageView iv80 = (ImageView) findViewById(R.id.imageView80);
         ImageView iv81 = (ImageView) findViewById(R.id.imageView81);
+        ImageView iv82 = (ImageView) findViewById(R.id.imageView82);
+        ImageView iv83 = (ImageView) findViewById(R.id.imageView83);
+        ImageView iv84 = (ImageView) findViewById(R.id.imageView84);
+        ImageView iv85 = (ImageView) findViewById(R.id.imageView85);
+
+        ImageView iv86 = (ImageView) findViewById(R.id.imageView86);
+        ImageView iv87 = (ImageView) findViewById(R.id.imageView87);
+        ImageView iv88 = (ImageView) findViewById(R.id.imageView88);
+        ImageView iv89 = (ImageView) findViewById(R.id.imageView89);
+        ImageView iv90 = (ImageView) findViewById(R.id.imageView90);
+
+        ImageView iv91 = (ImageView) findViewById(R.id.imageView91);
+        ImageView iv92 = (ImageView) findViewById(R.id.imageView92);
+
         ImageView iv812 = (ImageView) findViewById(R.id.imageView812);
         ImageView iv94 = (ImageView) findViewById(R.id.imageView94);
+        ImageView iv97 = (ImageView) findViewById(R.id.imageView97);
+        ImageView iv98 = (ImageView) findViewById(R.id.imageView98);
+        ImageView iv99 = (ImageView) findViewById(R.id.imageView99);
+
+        ImageView iv100 = (ImageView) findViewById(R.id.imageView100);
+        ImageView iv101 = (ImageView) findViewById(R.id.imageView101);
+        ImageView iv102 = (ImageView) findViewById(R.id.imageView102);
+        ImageView iv103 = (ImageView) findViewById(R.id.imageView103);
+        ImageView iv104 = (ImageView) findViewById(R.id.imageView104);
+        ImageView iv105 = (ImageView) findViewById(R.id.imageView105);
+        ImageView iv106 = (ImageView) findViewById(R.id.imageView106);
+        ImageView iv107 = (ImageView) findViewById(R.id.imageView107);
+        ImageView iv108 = (ImageView) findViewById(R.id.imageView108);
+        ImageView iv109 = (ImageView) findViewById(R.id.imageView109);
+        ImageView iv110 = (ImageView) findViewById(R.id.imageView110);
+        ImageView iv111 = (ImageView) findViewById(R.id.imageView111);
+        ImageView iv112 = (ImageView) findViewById(R.id.imageView112);
+        ImageView iv113 = (ImageView) findViewById(R.id.imageView113);
+        ImageView iv114 = (ImageView) findViewById(R.id.imageView114);
+
+
+        ImageView iv136 = (ImageView) findViewById(R.id.imageView136);
+        ImageView iv137 = (ImageView) findViewById(R.id.imageView137);
+        ImageView iv138 = (ImageView) findViewById(R.id.imageView138);
+        ImageView iv139 = (ImageView) findViewById(R.id.imageView139);
+        ImageView iv140 = (ImageView) findViewById(R.id.imageView140);
 
 //
-        imagesList.add(iv1);
-        imagesList.add(iv2);
-        imagesList.add(iv3);
-        imagesList.add(iv4);
-        imagesList.add(iv5);
-        imagesList.add(iv7);
-        imagesList.add(iv10);
-        imagesList.add(iv11);
-        imagesList.add(iv13);
-        imagesList.add(iv17);
-        imagesList.add(iv16);
-        imagesList.add(iv18);
-        imagesList.add(iv19);
-        imagesList.add(iv20);
-        imagesList.add(iv21);
-        imagesList.add(iv22);
-        imagesList.add(iv23);
-        imagesList.add(iv24);
-        imagesList.add(iv25);
-        imagesList.add(iv26);
-        imagesList.add(iv27);
-        imagesList.add(iv28);
-        imagesList.add(iv29);
-        imagesList.add(iv30);
-        imagesList.add(iv31);
-        imagesList.add(iv32);
-        imagesList.add(iv33);
-        imagesList.add(iv34);
-        imagesList.add(iv35);
-        imagesList.add(iv352);
-        imagesList.add(iv36);
-        imagesList.add(iv37);
-        imagesList.add(iv38);
-        imagesList.add(iv39);
-        imagesList.add(iv40);
-        imagesList.add(iv41);
-        imagesList.add(iv42);
-        imagesList.add(iv43);
-        imagesList.add(iv44);
-        imagesList.add(iv45);
-        imagesList.add(iv46);
-        imagesList.add(iv47);
-        imagesList.add(iv48);
-        imagesList.add(iv49);
-        imagesList.add(iv50);
-        imagesList.add(iv51);
-        imagesList.add(iv52);
-        imagesList.add(iv53);
-        imagesList.add(iv55);
-        imagesList.add(iv56);
-        imagesList.add(iv57);
-        imagesList.add(iv58);
-        imagesList.add(iv59);
-        imagesList.add(iv60);
-        imagesList.add(iv61);
+        for (int i = 0; i < 200; i++) {
+            imagesList.add(null);
+        }
+        
+        imagesList.add(1, iv1);
+        imagesList.add(2,iv2);
+        imagesList.add(3,iv3);
+        imagesList.add(4,iv4);
+        imagesList.add(5,iv5);
+        imagesList.add(7,iv7);
+        imagesList.add(10,iv10);
+        imagesList.add(11,iv11);
+        imagesList.add(13,iv13);
+        imagesList.add(17,iv17);
+        imagesList.add(16,iv16);
+        imagesList.add(18,iv18);
+        imagesList.add(19,iv19);
+        imagesList.add(20,iv20);
+        imagesList.add(21,iv21);
+        imagesList.add(22,iv22);
+        imagesList.add(23,iv23);
+        imagesList.add(24,iv24);
+        imagesList.add(25,iv25);
+        imagesList.add(26,iv26);
+        imagesList.add(27,iv27);
+        imagesList.add(28,iv28);
+        imagesList.add(29,iv29);
+        imagesList.add(30,iv30);
+        imagesList.add(31,iv31);
+        imagesList.add(32,iv32);
+        imagesList.add(33,iv33);
+        imagesList.add(34,iv34);
+        imagesList.add(35,iv35);
+       // imagesList.add(352,iv352);
+        imagesList.add(36,iv36);
+        imagesList.add(37,iv37);
+        imagesList.add(38,iv38);
+        imagesList.add(39,iv39);
+        imagesList.add(40,iv40);
+        imagesList.add(41,iv41);
+        imagesList.add(42,iv42);
+        imagesList.add(43,iv43);
+        imagesList.add(44,iv44);
+        imagesList.add(45,iv45);
+        imagesList.add(46,iv46);
+        imagesList.add(47,iv47);
+        imagesList.add(48,iv48);
+        imagesList.add(49,iv49);
+        imagesList.add(50,iv50);
+        imagesList.add(51,iv51);
+        imagesList.add(52,iv52);
+        imagesList.add(53,iv53);
+        imagesList.add(55,iv55);
+        imagesList.add(56,iv56);
+        imagesList.add(57,iv57);
+        imagesList.add(58,iv58);
+        imagesList.add(59,iv59);
+        imagesList.add(60,iv60);
+        imagesList.add(61,iv61);
+        imagesList.add(63,iv63);
+        imagesList.add(64,iv64);
+        imagesList.add(65,iv65);
+        imagesList.add(66,iv66);
+        imagesList.add(67,iv67);
+        imagesList.add(69,iv69);
+        imagesList.add(72,iv72);
+        imagesList.add(73,iv73);
+        imagesList.add(75,iv75);
+        imagesList.add(78,iv78);
+        imagesList.add(79,iv79);
+        imagesList.add(80,iv80);
+        imagesList.add(81,iv81);
+        imagesList.add(82,iv82);
 
-        imagesList.add(iv63);
-        imagesList.add(iv64);
+        imagesList.add(83,iv83);
+        imagesList.add(84,iv84);
+        imagesList.add(85,iv85);
+        //imagesList.add(iv812);
+        imagesList.add(86,iv86);
+        imagesList.add(87,iv87);
+        imagesList.add(88,iv88);
+        imagesList.add(89,iv89);
+        imagesList.add(94,iv94);
+        imagesList.add(90,iv90);
 
-        imagesList.add(iv65);
-        imagesList.add(iv66);
+        imagesList.add(91,iv91);
+        imagesList.add(92,iv92);
+        imagesList.add(97,iv97);
+        imagesList.add(98,iv98);
 
-        imagesList.add(iv67);
-        imagesList.add(iv69);
-        imagesList.add(iv72);
-        imagesList.add(iv73);
-        imagesList.add(iv75);
-        imagesList.add(iv78);
-        imagesList.add(iv79);
-        imagesList.add(iv80);
-        imagesList.add(iv81);
-        imagesList.add(iv812);
-        imagesList.add(iv94);
+        imagesList.add(99,iv99);
+        imagesList.add(100,iv100);
+        imagesList.add(101,iv101);
+        imagesList.add(102,iv102);
+        imagesList.add(103,iv103);
+        imagesList.add(104,iv104);
+        imagesList.add(105,iv105);
+        imagesList.add(106,iv106);
+        imagesList.add(107,iv107);
+        imagesList.add(108,iv108);
+        imagesList.add(109,iv109);
+        imagesList.add(110,iv110);
+        imagesList.add(111,iv111);
+        imagesList.add(112,iv112);
+        imagesList.add(113,iv113);
+        imagesList.add(114,iv114);
+
+        imagesList.add(136,iv136);
+        imagesList.add(137,iv137);
+        imagesList.add(138,iv138);
+
+        imagesList.add(139,iv139);
+        imagesList.add(140,iv140);
 
 
         for (int i = 0, imagesListSize = imagesList.size(); i < imagesListSize; i++) {
-            ImageView image = imagesList.get(i);
-            image.getDrawable().mutate();
-            setListener(image, i+1, sharedPref);
+            if (imagesList.get(i)!=null) {
+                ImageView image = imagesList.get(i);
+                image.getDrawable().mutate();
+                setListener(image, i, sharedPref);
+            }
+
         }
 
         buttonClean.setOnClickListener(new View.OnClickListener() {
@@ -244,12 +327,16 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View v) {
                 alphaOrange = adjustAlpha(Color.WHITE, 150);
                 for (int i = 0, imagesListSize = imagesList.size(); i < imagesListSize; i++) {
-                    ImageView image = imagesList.get(i);
-                    image.getDrawable().setColorFilter(alphaOrange, PorterDuff.Mode.SRC_ATOP);
-                    SharedPreferences.Editor editor = sharedPref.edit();
-                    editor.putString(String.valueOf(i), "WHITE");
-                    editor.apply();
-                    writeFileOnInternalStorage(getApplicationContext(), "choosen.txt", "", false);
+                    if (imagesList.get(i)!=null) {
+                        ImageView image = imagesList.get(i);
+                        image.getDrawable().setColorFilter(alphaOrange, PorterDuff.Mode.SRC_ATOP);
+                        SharedPreferences.Editor editor = sharedPref.edit();
+                        editor.putString(String.valueOf(i), "WHITE");
+                        editor.apply();
+                        writeFileOnInternalStorage(getApplicationContext(), "choosen.txt", "", false);
+                    }
+
+
 
                 }
             }
