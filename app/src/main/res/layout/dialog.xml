@@ -3,38 +3,31 @@
                                                    xmlns:android="http://schemas.android.com/apk/res/android"
                                                    xmlns:tools="http://schemas.android.com/tools"
                                                    android:layout_width="match_parent"
-                                                   android:layout_height="match_parent">
-    <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" app:srcCompat="@drawable/red_button" android:id="@+id/imageViewRed"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toStartOf="@+id/imageViewBlue" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
-    <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" app:srcCompat="@drawable/blue_button" android:id="@+id/imageViewBlue"
-            app:layout_constraintStart_toEndOf="@+id/imageViewRed" app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toStartOf="@+id/imageViewWhite" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
-    <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" app:srcCompat="@drawable/white_button" android:id="@+id/imageViewWhite"
-            app:layout_constraintStart_toEndOf="@+id/imageViewBlue" app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
-    <TextView
-            android:text="Выберите цвет"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/dialogText"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="100dp" android:layout_marginBottom="182dp"
-            app:layout_constraintBottom_toTopOf="@+id/imageViewBlue" android:textSize="36sp"/>
+                                                   android:layout_height="match_parent"
+                                                   android:background="@color/button">
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editTextTextPersonName"
+            android:gravity="start|top" android:background="@color/cardview_light_background"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"/>
     <Button
             android:text="Отменить"
             android:layout_width="155dp"
             android:layout_height="79dp" android:id="@+id/cancelDialog"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewBlue"
-            android:layout_marginTop="50dp" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toStartOf="@+id/saveList"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"/>
+    <Button
+            android:text="Сохранить"
+            android:layout_width="155dp"
+            android:layout_height="79dp" android:id="@+id/saveList"
+            app:layout_constraintStart_toEndOf="@+id/cancelDialog" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

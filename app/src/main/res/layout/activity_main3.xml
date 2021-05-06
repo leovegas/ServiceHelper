@@ -28,7 +28,7 @@
                     android:layout_height="match_parent">
                 <ListView
                         android:layout_width="match_parent"
-                        android:layout_height="489dp" android:id="@+id/listview"
+                        android:layout_height="400dp" android:id="@+id/listview"
                 >
                 </ListView>
             </LinearLayout>
@@ -62,12 +62,12 @@
             <Button
                     android:text="Назад к схеме"
                     android:layout_width="100dp"
-                    android:layout_height="40dp" android:id="@+id/toScheme"
+                    android:layout_height="90dp" android:id="@+id/toScheme"
                     android:layout_weight="1"/>
             <Button
                     android:text="Отправить в телеграм"
                     android:layout_width="700dp"
-                    android:layout_height="40dp" android:id="@+id/buttonTelegram"
+                    android:layout_height="90dp" android:id="@+id/buttonTelegram"
             />
         </LinearLayout>
     </LinearLayout>
